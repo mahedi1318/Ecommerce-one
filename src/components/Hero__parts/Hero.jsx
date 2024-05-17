@@ -5,7 +5,7 @@ import { HeroData } from "../../ALL_DATA/Data";
 const Hero = () => {
 
     const settings = {
-        dots: true,
+        dots: false,
         arrows: false,
         infinite: true,
         speed: 500,    
@@ -19,7 +19,7 @@ const Hero = () => {
 
   return (
     <>
-    <div className='w-full h-[500px] bg-[#333300]/40 dark:bg-gray-900'>
+    <div className='w-full h-[500px] bg-[#d4d3d3] dark:bg-gray-900'>
         <div className="container">
 
             {/* hero slider */}
@@ -30,10 +30,10 @@ const Hero = () => {
                         <div className="w-full relative">
                             <img className="w-full h-[500px] object-cover" src={item.imageLink} alt="" />
                             <div className="w-full h-full bg-[#333300]/50 top-0 absolute left-0">
-                                <div className=" text-center text-white">
-                                    <h1>{item.subTitle}</h1>
-                                    <h1>{item.title1}</h1>
-                                    <button>Shop Now</button>
+                                <div className=" text-center text-white mt-20">
+                                    <h1 className="text-8xl font-semibold reddit_sans">{item.subTitle}</h1>
+                                    <h1 className="uppercase text-4xl font-medium mt-3">{item.title1}</h1>
+                                    <button className="px-6 py-3 bg-slate-700 rounded-xl mt-8">Shop Now</button>
                                 </div>
                             </div>                            
                         </div>
@@ -42,8 +42,7 @@ const Hero = () => {
               ))}
             </Slider>
         </div>
-    </div>
-      Hero
+    </div> 
     </>
   )
 }

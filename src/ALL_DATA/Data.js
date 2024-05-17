@@ -1,6 +1,6 @@
 
-import Images1 from "../assets/images/banner3.jpg"
-import Images2 from "../assets/images/banner3.jpg"
+import Images1 from "../assets/images/banner4.jpg"
+import Images2 from "../assets/images/banner5.jpg"
 import Images3 from "../assets/images/banner3.jpg"
 
 export const NavMenuLink = [
@@ -12,27 +12,27 @@ export const NavMenuLink = [
     {
         id: 2,
         name: "About",
-        link: "/"
+        link: "/about"
     },
     {
         id: 3,
         name: "Shop",
-        link: "/"
+        link: "/shop"
     },
     {
         id: 4,
         name: "Product",
-        link: "/"
+        link: "/product"
     },
     {
         id: 5,
         name: "Block",
-        link: "/"
+        link: "/block"
     },
     {
         id: 6,
         name: "Contact",
-        link: "/"
+        link: "/contact"
     },
 ]
 
@@ -48,7 +48,7 @@ export const HeroData = [
         id: 2,
         "imageLink": Images2,
         subTitle: "BEST SOLO",
-        title1: "FOOD",        
+        title1: "fried-chicken",        
     },
     {
         id: 3,
