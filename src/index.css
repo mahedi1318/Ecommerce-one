@@ -10,7 +10,7 @@
 }
 
 .container{
-  width: 90%;
+  width: 95%;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -18,3 +18,8 @@
 .reddit_sans{
   font-family: "Reddit Sans", sans-serif;
 }
+
+.outfit_fonts {
+  font-family: "Outfit", sans-serif;
+}
+

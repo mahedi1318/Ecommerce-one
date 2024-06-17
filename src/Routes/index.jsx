@@ -1,11 +1,11 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
 import Root from "../layout/root/Root"
 import Home from "../pages/Home"
-import About from "../components/About/About"
-import Shop from "../components/Shop/Shop"
-import Product from "../components/Priduct__part/Product"
-import Contact from "../components/Contact__part/Contact"
-import Block from "../components/Block__part/Block"
+import About from "../pages/AboutPage"
+import Shop from "../pages/ShopPage"
+import Product from "../pages/ProductPage"
+import Contact from "../pages/ContactPage"
+import Block from "../pages/BlockPage"
 
 
     const router = createBrowserRouter(createRoutesFromElements(
