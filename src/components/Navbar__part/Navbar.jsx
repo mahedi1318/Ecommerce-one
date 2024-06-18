@@ -3,6 +3,7 @@ import { NavMenuLink } from '../../ALL_DATA/Data'
 import { IoMdSearch } from "react-icons/io";
 import { IoCart } from "react-icons/io5";
 import DarkMode from './DarkMode';
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
                     <div className='flex gap-16 items-center'>
                         <a className='text-xl reddit_sans font-semibold text-[#ff9933] tracking-widest uppercase' href="#">Eshop</a>
                         {/* menu part */}
-                        <div>
+                        <div className='mb:hidden xl:block'>
                             <ul className='flex gap-8 text-white'>
                                 {NavMenuLink.map((data)=>(
                                 <li key={data.id}><a className='reddit_sans text-base font-normal hover:text-[#ff9933] transition-all duration-300' href={data.link}>{data.name}</a></li>
@@ -23,7 +24,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/*Navbar Right section */}
-                    <div className='flex justify-between items-center gap-4'>
+                    <div className='xl:flex justify-between items-center gap-4 mb:hidden '>
                         {/* search bar */}
                         <div className='relative'>
                             <input type="text" placeholder='Search'
@@ -40,6 +41,9 @@ const Navbar = () => {
                         <div>
                             <DarkMode/>
                         </div>
+                    </div>
+                    <div className='xl:hidden'>
+                        <button className='text-[30px] text-white'><FaBars /></button>
                     </div>
                 </div>                              
             </div>

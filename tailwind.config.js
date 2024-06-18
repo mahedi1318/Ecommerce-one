@@ -6,7 +6,10 @@ export default {
   ],
   darkMode: "class",
   theme: {
-    extend: {      
+    extend: {     
+      screens: {
+        mb : "320px",
+      },
       container: {
         center: true,
         padding: {

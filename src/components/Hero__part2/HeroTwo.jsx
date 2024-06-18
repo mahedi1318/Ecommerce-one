@@ -13,8 +13,8 @@ const HeroTwo = () => {
         <div className='py-8'>
             <div className="container">
                  {/* ITEM ONE PART */}
-                <div className="grid grid-cols-4 gap-8">
-                    <div className='h-[320px] bg-gradient-to-br from-black/90 to-black/70 text-white rounded-3xl relative flex pl-6' >
+                <div className="xl:grid xl:grid-cols-4 mb:block xl:gap-8">
+                    <div className='h-[320px] bg-gradient-to-br from-black/90 to-black/70 text-white rounded-3xl relative flex pl-6 mb:mb-5' >
                         <div className='flex absolute top-[80px] right-5'>                            
                             <img className='w-[150px] h-[140px] rounded-xl' src={imgHero2} alt="" />
                         </div>
@@ -26,7 +26,7 @@ const HeroTwo = () => {
                             <button className='py-2 px-9 bg-slate-700 reddit_sans rounded-full'>Browse</button>
                         </div>
                     </div>
-                    <div className='  h-[320px] bg-gradient-to-br from-yellow-700/90 to-black/70 text-white rounded-3xl relative flex pl-6' >
+                    <div className='h-[320px] bg-gradient-to-br from-yellow-700/90 to-black/70 text-white rounded-3xl relative flex pl-6 mb:mb-5' >
                         <div className='flex absolute top-[80px] right-5'>                            
                             <img className='w-[150px] h-[140px] rounded-xl z-0' src={imgHero2_three} alt="" />
                         </div>
@@ -38,7 +38,7 @@ const HeroTwo = () => {
                             <button className='py-2 px-9 bg-slate-700 reddit_sans rounded-full'>Browse</button>
                         </div>
                     </div>
-                    <div className=' col-span-2 pl-6 h-[320px] bg-gradient-to-br from-gray-700/90  to-black/70 text-white rounded-3xl relative flex ' >
+                    <div className='col-span-2 pl-6 h-[320px] bg-gradient-to-br from-gray-700/90  to-black/70 text-white rounded-3xl relative xl:flex mb:hidden' >
                         <div className='flex absolute top-[40px] right-[50px]'>                            
                             <img className='w-[280px] h-[240px] rounded-xl' src={imgHero2_four} alt="" />
                         </div>
@@ -54,8 +54,8 @@ const HeroTwo = () => {
 
                     {/* ITEM TOW PART */}
 
-                <div className="grid grid-cols-4 gap-8 mt-8">
-                    <div className=' col-span-2 pl-6 h-[320px] bg-gradient-to-br from-orange-700/90 to-black/70 text-white rounded-3xl relative flex' >
+                <div className="xl:grid xl:grid-cols-4 xl:gap-8 mb:block mt-8">
+                    <div className=' col-span-2 pl-6 h-[320px] bg-gradient-to-br from-orange-700/90 to-black/70 text-white rounded-3xl relative xl:flex mb:mb-5 mb:hidden' >
                         <div className='flex absolute top-[40px] right-[50px]'>                            
                             <img className='w-[280px] h-[240px] rounded-xl' src={imgHero2_two} alt="" />
                         </div>
@@ -68,7 +68,7 @@ const HeroTwo = () => {
                             <button className='py-2 px-9 bg-slate-700 reddit_sans rounded-full'>Browse</button>
                         </div>
                     </div>
-                    <div className='pl-6 h-[320px] bg-gradient-to-br from-blue-600/90 to-black/70 text-white rounded-3xl relative flex ' >
+                    <div className='pl-6 h-[320px] bg-gradient-to-br from-blue-600/90 to-black/70 text-white rounded-3xl relative flex mb:mb-5' >
                     <div className='flex absolute top-[80px] right-5'>                            
                             <img className='w-[150px] h-[140px] rounded-xl z-0' src={imgHero2_five} alt="" />
                         </div>

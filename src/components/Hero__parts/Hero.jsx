@@ -30,8 +30,8 @@ const Hero = () => {
                         <div className="w-full relative">
                             <img className="w-full h-[500px] object-cover" src={item.imageLink} alt="" />
                             <div className="w-full h-full bg-[#333300]/50 top-0 absolute left-0">
-                                <div className=" text-center text-white mt-20">
-                                    <h1 className="text-8xl font-semibold reddit_sans">{item.subTitle}</h1>
+                                <div className=" text-center text-white xl:mt-20 mb:mt-[130px]">
+                                    <h1 className="xl:text-8xl font-semibold reddit_sans mb:text-[35px]">{item.subTitle}</h1>
                                     <h1 className="uppercase text-4xl font-medium mt-3">{item.title1}</h1>
                                     <button className="px-6 py-3 bg-slate-700 rounded-xl mt-8">Shop Now</button>
                                 </div>

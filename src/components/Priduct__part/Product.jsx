@@ -7,12 +7,12 @@ const Product = () => {
     <>
     <div className='w-full pb-[70px] bg-[#d4d3d3] dark:bg-gray-900'>
       <div className="container">
-        <div className="mb-5 flex justify-between">
-          <h2 className='reddit_sans text-3xl font-bold dark:text-white'>BEST PRODUCTS</h2>
-          <a className=" px-8 py-2 border border-[#9b9bb4] text-[#9b9bb4] rounded-full reddit_sans text-[13px] font-semibold
+        <div className="mb-5 flex justify-between items-center">
+          <h2 className='reddit_sans xl:text-3xl mb:text-[17px] font-bold dark:text-white'>BEST PRODUCTS</h2>
+          <a className=" xl:px-8 mb:px-6 mb:py-2 xl:py-2 border border-[#9b9bb4] text-[#9b9bb4] rounded-full reddit_sans text-[13px] font-semibold
            dark:text-white dark:border-[#444] flex items-center gap-2" href="#">View All <FaArrowRightLong /></a>
         </div>
-        <div className='grid grid-cols-5 gap-6'>
+        <div className='grid xl:grid-cols-5 mb:grid-cols-1 gap-6'>
           {ProductData?.map((item)=>(
           <div className='h-[370px] bg-[#fff] rounded-xl relative p-6'>
             <img className="rounded-xl w-[130px] h-[130px] m-auto mt-2" src={item.imageLink} alt="" />
