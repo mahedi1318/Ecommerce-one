@@ -1,14 +1,19 @@
+import { useReducer } from 'react'
 import './App.css'
 import Routes from './Routes'
-// import Home from './pages/Home'
+import { ProductCardContext } from './context'
+import { CardReducers, initialState } from './reducers/CardReducers'
+
 
 function App() {
   
+  const [state, dispatch] = useReducer(CardReducers, initialState)
 
   return (
     <>
-      {/* <Home/> */}
-      <Routes/>
+      <ProductCardContext.Provider value={{state, dispatch}}>
+        <Routes/>
+      </ProductCardContext.Provider>
     </>
   )
 }

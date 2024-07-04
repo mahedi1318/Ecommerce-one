@@ -1,10 +1,18 @@
 import React from 'react'
+import AboutHero from '../components/About_part_page/AboutHero'
+import AboutDetailsPart from '../components/About_part_page/AboutDetailsPart'
+import AboutFoodOffer from '../components/About_part_page/AboutFoodOffer'
+import AboutStafPart from '../components/About_part_page/AboutStafPart'
+
 
 const AboutPage = () => {
   return (
-    <div>
-      AboutPage
-    </div>
+    <>
+      <AboutHero/>
+      <AboutDetailsPart/>
+      <AboutFoodOffer/>
+      <AboutStafPart/>      
+    </>
   )
 }
 

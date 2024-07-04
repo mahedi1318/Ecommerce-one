@@ -24,6 +24,28 @@ import Gallery7 from "../assets/images/galleryImg/gallery-7.webp"
 import Gallery8 from "../assets/images/galleryImg/gallery-8.webp"
 
 
+    //*********** */ About staff part**************
+
+import AboutStaff1 from "../assets/images/staff-1.webp"
+import AboutStaff2 from "../assets/images/staff-2.webp"
+import AboutStaff3 from "../assets/images/staff-33.webp"
+import AboutStaff4 from "../assets/images/staff-4.webp"
+
+//*********** */ Shop part**************
+
+import ShopAllImg1 from "../assets/images/shopImg/shop-1.webp"
+import ShopAllImg2 from "../assets/images/shopImg/shop-2.webp"
+import ShopAllImg3 from "../assets/images/shopImg/shop-3.webp"
+import ShopAllImg4 from "../assets/images/shopImg/shop-4.webp"
+import ShopAllImg5 from "../assets/images/shopImg/shop-5.webp"
+import ShopAllImg6 from "../assets/images/shopImg/shop-6.webp"
+import ShopAllImg7 from "../assets/images/shopImg/shop-7.webp"
+import ShopAllImg8 from "../assets/images/shopImg/shop-8.webp"
+import ShopAllImg9 from "../assets/images/shopImg/shop-9.webp"
+import ShopAllImg10 from "../assets/images/shopImg/shop-10.webp"
+import ShopAllImg11 from "../assets/images/shopImg/shop-11.webp"
+
+
 export const NavMenuLink = [
     {
         id: 1,
@@ -32,7 +54,7 @@ export const NavMenuLink = [
     },
     {
         id: 2,
-        name: "About",
+        name: "About US",
         link: "/about"
     },
     {
@@ -205,5 +227,258 @@ export const GalleryData = [
         "imageLink": Gallery8,
         subTitle: "Italian Special",
         title1: "Canederli",        
+    },
+]
+
+    //*********** */ About staff part**************
+
+export const AboutStaffData = [
+    {
+        id: 1,
+        "imageLink": AboutStaff1,
+        name: "Reva Quail",
+        work: "Quality Tester",        
+    },
+    {
+        id: 2,
+        "imageLink": AboutStaff2,
+        name: "Shad Hewes",
+        work: "Supporter",        
+    },
+    {
+        id: 3,
+        "imageLink": AboutStaff3,
+        name: "Meg Penix",
+        work: "Store Manager",        
+    },
+    {
+        id: 4,
+        "imageLink": AboutStaff4,
+        name: "Edith Underwood",
+        work: "Designer",        
+    },    
+]
+
+
+//*********** */ Shop All Product part**************
+
+export const ShopAllData = [
+    {
+        id: 1,
+        "imageLink": ShopAllImg1,
+        name: "Reva Quail",               
+    },
+    {
+        id: 2,
+        "imageLink": ShopAllImg2,
+        name: "Shad Hewes",             
+    },
+    {
+        id: 3,
+        "imageLink": ShopAllImg3,
+        name: "Meg Penix",              
+    },
+    {
+        id: 4,
+        "imageLink": ShopAllImg4,
+        name: "Edith Underwood",               
+    },   
+    {
+        id: 5,
+        "imageLink": ShopAllImg5,
+        name: "Edith Underwood",               
+    },   
+    {
+        id: 6,
+        "imageLink": ShopAllImg6,
+        name: "Edith Underwood",               
+    },  
+    {
+        id: 7,
+        "imageLink": ShopAllImg7,
+        name: "Edith Underwood",               
+    },  
+    {
+        id: 8,
+        "imageLink": ShopAllImg8,
+        name: "Edith Underwood",               
+    },  
+    {
+        id: 9,
+        "imageLink": ShopAllImg9,
+        name: "Edith Underwood",               
+    }, 
+    {
+        id: 10,
+        "imageLink": ShopAllImg10,
+        name: "Edith Underwood",               
+    }, 
+    {
+        id: 11,
+        "imageLink": ShopAllImg11,
+        name: "Edith Underwood",               
+    }, 
+]
+
+
+
+
+
+
+// ********************Product All DATA***********
+
+
+export const ProductAllData = [
+    {
+        id: 1,
+        "imageLink": ProductImages1,  
+        "title" : "Sandwich olka bread", 
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",        
+    },
+    {
+        id: 2,
+        "imageLink": ProductImages2,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",            
+    },
+    {
+        id: 3,
+        "imageLink": ProductImages3,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 4,
+        "imageLink": ProductImages4,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 5,
+        "imageLink": ProductImages5,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",              
+    },
+    {
+        id: 6,
+        "imageLink": ProductImages6,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",            
+    },
+    {
+        id: 7,
+        "imageLink": ProductImages7,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 8,
+        "imageLink": ProductImages8,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 9,
+        "imageLink": ProductImages9,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 10,
+        "imageLink": ProductImages1,  
+        "title" : "Sandwich olka bread", 
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",        
+    },
+    {
+        id: 11,
+        "imageLink": ProductImages2,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",            
+    },
+    {
+        id: 12,
+        "imageLink": ProductImages3,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 13,
+        "imageLink": ProductImages4,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 14,
+        "imageLink": ProductImages5,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",              
+    },
+    {
+        id: 15,
+        "imageLink": ProductImages6,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",            
+    },
+    {
+        id: 16,
+        "imageLink": ProductImages7,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 17,
+        "imageLink": ProductImages9,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 18,
+        "imageLink": ProductImages8,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
+    },
+    {
+        id: 19,
+        "imageLink": ProductImages9,
+        "title" : "Sandwich olka bread",
+        "product_meta": "In Stok",
+        "price" : "$44.00",  
+        "deletePrice" : "$49.00",               
     },
 ]

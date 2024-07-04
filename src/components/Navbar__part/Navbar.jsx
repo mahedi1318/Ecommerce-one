@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { NavMenuLink } from '../../ALL_DATA/Data'
 import { IoMdSearch } from "react-icons/io";
 import { IoCart } from "react-icons/io5";
 import DarkMode from './DarkMode';
 import { FaBars } from "react-icons/fa";
+import { ProductCardContext } from '../../context';
 
 const Navbar = () => {
+    const {state} = useContext(ProductCardContext)
+    
   return (
     <>
     <div className='bg-[#3a2a1b] dark:bg-gray-900 dark:shadow-md dark:text-white duration-200 relative z-40'>
@@ -34,8 +37,10 @@ const Navbar = () => {
                         </div>
                         {/* order shoping card */}
                         <button className='relative'>
-                            <IoCart className='text-2xl text-white' />
-                            <div className='w-5 h-5 rounded-full bg-blue-600 flex justify-center items-center absolute top-[-10px] left-[10px]'>3</div>
+                            <IoCart className='text-2xl text-white' />                            
+                            {state.cardData.length > 0 && (
+                                <span className='w-5 h-5 rounded-full bg-yellow-600 text-[13px] flex justify-center items-center absolute top-[-10px] left-[10px]'>{state.cardData.length}</span>
+                            )}
                         </button>
                         {/* Dark Mode section part */}
                         <div>

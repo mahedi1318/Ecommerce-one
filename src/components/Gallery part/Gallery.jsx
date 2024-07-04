@@ -4,8 +4,8 @@ import { GalleryData } from '../../ALL_DATA/Data'
 const Gallery = () => {
   return (
     <>
-      <div className='w-full pt-[30px] pb-[60px] bg-[#d4d3d3]'>
-            <h2 className='reddit_sans text-[40px] font-semibold text-center mb-8 text-[#444]'>Our Gallery</h2>
+      <div className='w-full pt-[30px] pb-[60px] bg-[#d4d3d3] dark:bg-gray-900'>
+            <h2 className='reddit_sans text-[40px] font-semibold text-center mb-8 text-[#444] dark:text-[#fff]'>Our Gallery</h2>
           <div className='grid xl:grid-cols-4 mb:grid-cols-1'>     
             {GalleryData?.map((item)=>(
             <div key={item.id} className=' xl:h-[450px] mb:h-[350px] overflow-hidden relative group'>

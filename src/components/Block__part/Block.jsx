@@ -1,10 +1,11 @@
 import React from 'react'
+import BlogHero from './BlogHero'
 
 const Block = () => {
   return (
-    <div>
-      Block
-    </div>
+    <>
+      <BlogHero/>
+    </>
   )
 }
 
